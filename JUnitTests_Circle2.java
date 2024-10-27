@@ -72,7 +72,7 @@ class JUnitTests_Circle2 {
         Point outsidePoint = new Point(1.01, 3);
 
         assertTrue(circle.isContained(insidePoint), "Point (1, 3) should be inside the circle.");
-        assertFalse(circle.isContained(outsidePoint), "Point (1. 01, 3) should be outside the circle.");
+        assertFalse(circle.isContained(outsidePoint), "Point (1.01, 3) should be outside the circle.");
     }
     
     
